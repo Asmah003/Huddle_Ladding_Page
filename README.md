@@ -77,6 +77,10 @@ Exemple de règle CSS pour la responsivité :
 
 ![Apercu](./huddle_image4.png)
 
+## Lien github_page
+
+[Demonstration](https://asmah003.github.io/Huddle_Ladding_Page/)
+
 ## Difficultés rencontrées
 
 Lors de la réalisation de ce projet, la principale difficulté a été de positionner correctement les éléments dans le footer. Trouver un équilibre entre les icônes sociales, le texte de contact et la mise en page générale n’a pas été simple. De plus, gérer la responsivité a été un défi, notamment pour les écrans de petite taille. Le fait de maintenir une disposition fluide tout en gardant une bonne lisibilité sur les petits écrans a nécessité plusieurs ajustements.
