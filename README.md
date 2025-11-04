@@ -38,10 +38,10 @@ Le projet "Huddle Landing Page" consiste à créer une page d'atterrissage pour 
 Le projet utilise des balises HTML sémantiques telles que :
 
 
-(<header>), (<main>), (<section>), (<footer>) pour structurer le contenu.
+(header), (main), (section), (footer) pour structurer le contenu.
 
 
-(<button>), (<img>), (<h1>), (<p>) pour afficher des éléments interactifs et du contenu.
+(button), (img), (h1), (p) pour afficher des éléments interactifs et du contenu.
 
 ## CSS utilisé
 
