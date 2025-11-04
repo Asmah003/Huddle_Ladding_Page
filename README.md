@@ -67,6 +67,15 @@ Exemple de règle CSS pour la responsivité :
     height: 80vh;
   }
 }
+## Capture d'ecran
+
+![Apercu](./huddle_image1.png)
+
+![Apercu](./huddle_image2.png)
+
+![Apercu](./huddle_image3.png)
+
+![Apercu](./huddle_image4.png)
 
 ## Difficultés rencontrées
 
