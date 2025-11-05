@@ -10,12 +10,12 @@ body {
 }
 .container {
   width: 100%;
-  height: 100vh;
 }
+
 .S1 {
   width: 100%;
   height: 100vh;
-  background-image: url(./bg-hero-desktop.svg);
+  background-image: url("./bg-hero-desktop.svg");
   background-color: hsl(322, 100%, 98%);
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,20 +26,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
+  height: 100vh;  
 }
 .L1_1 {
   display: flex;
   justify-content: space-between;
-  margin-top: 70px;
 }
 .L1_1 button {
   background-color: #ffffff;
-  border-radius: 25px;
+  border-radius: 35px;
+  padding: 25px 90px;
   border: none;
-  font-size: 1.1em;
-  font-weight: 700;
-  padding: 12px 40px 12px 40px;
+  color: #002d34;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 1.5em;
 }
 .L1_1 button:hover {
   cursor: pointer;
@@ -152,6 +153,7 @@ h2 {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 20px;
+  margin-bottom: 400px;
 }
 .L5 {
   width: 100%;
@@ -185,15 +187,22 @@ h2 {
   justify-content: center;
   border-radius: 15px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  position: relative;
+  /* position: relative; */
+  margin-bottom: 400px;
 }
 .L_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
   text-align: center;
   background-color: #ffffff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   position: absolute;
-  bottom: -12em;
-  /* border: solid; */
+  left: calc(37.5%);
+  bottom: 520px;
+  margin-top: 200px;
+
   border-radius: 60px;
   width: 25%;
   height: 20vh;
@@ -201,22 +210,25 @@ h2 {
 }
 .L_1 h1 {
   font-size: 4.5em;
-  margin-top: 2em;
 }
 .L_1 button {
   background-color: hsl(322, 100%, 66%);
   border-radius: 35px;
-  padding: 5px 20px;
+  margin: auto;
+  width: 70%;
+  padding: 25px 90px;
   border: none;
   color: #fff;
   font-size: 3em;
   font-weight: bold;
+  margin-top: 1.5em;
 }
 .L_1 button:hover {
   background-color: hsl(322, 93%, 70%);
   cursor: pointer;
 }
 .footer {
+  position: relative;
   width: 100%;
   background-color: #002b35;
   color: #fff;
@@ -235,10 +247,12 @@ a {
 .S6 .liste {
   color: #fff;
 }
+/* .liste {
+  width: 10%;
+} */
 .cont_element {
   display: flex;
   align-items: center;
-  width: 100%;
   margin-top: 100px;
 }
 .footer_element {
@@ -316,21 +330,30 @@ a {
   }
 
   .L_1 {
-    width: 29%;
-    height: 15vh;
+    padding: 20px;
+    /* width: 29%;
+    height: 15vh; */
   }
   .L_1 h1 {
-    font-size: 4.5em;
-    margin-top: 2em;
+    font-size: 4em;
+    margin-bottom: 10px;
   }
   .L_1 button {
-    font-size: 3em;
-    margin-top: 50px;
+    font-size: 2em;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 1440px) {
   .container {
     margin: auto;
+  }
+  .L2 {
+    gap: 20px;
+  }
+  .L3,
+  .L4,
+  .L5 {
+    padding: 20px;
   }
   .L2_1 {
     font-size: 0.9em;
@@ -339,13 +362,12 @@ a {
     font-size: 4rem;
   }
   .L2_1 button {
-    padding: 8px;
+    padding: 25px 50px;
   }
   .L_1 {
+    padding: 20px;
     width: auto;
-  }
-  .L_1 button {
-    margin-top: 50px;
+    left: calc(30%);
   }
   .L_3 {
     font-size: 1em;
@@ -368,15 +390,17 @@ a {
     width: 100%;
     margin: auto;
   }
+  .L_1 {
+    padding: 20px;
+    width: auto;
+    left: calc(20%);
+    bottom: 450px;
+  }
   .L2_1 {
     font-size: 0.6em;
   }
   .L2_1 h1 {
     font-size: 3rem;
-  }
-  .L2_1 button {
-    font-size: 2em;
-    padding: 6px 15px 15px 6px;
   }
   .S5 {
     display: flex;
@@ -401,27 +425,26 @@ a {
 }
 @media screen and (max-width: 768px) {
   .container {
-    width: auto;
+    width: 100%;
     margin: auto;
     padding: auto;
   }
   body {
     text-align: center;
   }
+  .L_1 {
+    padding: 20px;
+    width: auto;
+    left: calc(8%);
+    bottom: 630px;
+  }
   .L1_1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 70px;
+    gap: 20px;
     width: auto;
-  }
-  .L1_1 img,
-  button {
-    width: 30%;
-    margin-left: 12em;
-  }
-  .L1_1 button {
-    margin-top: 2em;
   }
   .S1 {
     width: 100%;
@@ -451,12 +474,6 @@ a {
     margin-top: 2.75em;
     font-size: 1.75rem;
   }
-  .L2_1 button {
-    font-size: 2em;
-    margin-top: 3em;
-    padding: 8px;
-    margin-left: 10px;
-  }
   .L2_2 img {
     margin-bottom: 30em;
     margin-right: 50px;
@@ -475,10 +492,6 @@ a {
     align-items: center;
     justify-content: center;
     font-size: 0.6em;
-  }
-  .L_1 button {
-    margin-left: 10px;
-    padding: 8px;
   }
   .L_1 h1 {
     text-align: center;
@@ -531,10 +544,24 @@ a {
     margin-left: 3em;
   }
   .L1_1 button {
-    margin-top: 2em;
+    /* margin-top: 2em; */
+    font-size: 1em;
+    width: 60%;
   }
-  .L1_1 button {
-    padding: 3px 7em 3px 7em;
+  .L_1 {
+    padding: 20px;
+    width: auto;
+    left: calc(7%);
+    bottom: 700px;
+  }
+  .L_1 h1 {
+    font-size: 2em;
+  }
+  .L_1 button {
+    font-size: 1.25em;
+  }
+  .L2_1 button {
+    width: 90%;
   }
   @media screen and (max-width: 375px) {
     .L1_1 img,
@@ -543,7 +570,15 @@ a {
       margin-left: 3em;
     }
     .L1_1 button {
+      margin: auto;
       margin-top: 2em;
     }
+  }
+  .L2_1 button {
+    margin: auto;
+    width: 100%;
+  }
+  .L_1 {
+    left: calc(4%);
   }
 }
